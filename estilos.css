@@ -51,7 +51,7 @@ label{
     background: linear-gradient(rgb(114, 114, 114), rgb(65, 65, 65));
     }
   h1{
-    color: white;
+    color: lightgrey;
   }
   #btnCalcular{
     width: 25%;
