@@ -40,7 +40,7 @@ label{
   hr{
     height: 5px;
     border-radius: 5%;
-    background-color: lightgrey;
+    background-color: rgb(219, 219, 219);
   }
   .content {
     padding: 1rem;
