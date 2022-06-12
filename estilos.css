@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  background: url(bankwallpapers.jpg);
+  font-family: 'Radio Canada', sans-serif;
+}
+header{
+  text-align: center;
+  background-color:darkgrey;
+  font-size: 3rem;
+}
+.product-content {
+  padding: 1rem;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 5%;
+  background-color: darkgrey;
+  }
+label{
+  font-size: 2rem;
+  line-height: 200%;
+}
+  input{
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 1rem;
+  width: 75%;
+  margin:2px auto;
+  }
+  #error{
+    font-size: 2em;
+    font-family: Helvetica;
+    background: linear-gradient(rgb(187, 0, 0), rgb(161, 3, 3));
+    color: white;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding: 5% auto;
+    
+    
+  }
+  hr{
+    height: 5px;
+    border-radius: 5%;
+    background-color: lightgrey;
+  }
+  .content {
+    padding: 1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 5%;
+    color: lightgrey;
+    background: linear-gradient(rgb(114, 114, 114), rgb(65, 65, 65));
+    }
+  h1{
+    color: white;
+  }
+  #btnCalcular{
+    width: 25%;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 3px;
+  }
+  #mostrarMontoFinal{
+    background: linear-gradient(25deg,gold, rgb(250, 230, 120));
+    border: solid white;
+    border-radius: 3px; 
+    color: black;
+    width: 50%;
+    margin: 5% 25%;
+    font-size: 20px;
+    font-family: sans-serif;
+
+  }
+  #mostrarReinvertir{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    align-content: center;
+    margin: auto 20%;
+    background:linear-gradient(grey, lightgrey);
+    color: black;
+    border: double;
+  }
+  #grid-1, #grid-2, #grid-3, #grid-4, #grid-5, #grid-6, #grid-7, #grid-8, #grid-9, #grid-10, #grid-11, #grid-12, #grid-13, #grid-14, #grid-15{
+    border: 1px solid black;
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  #btnReinvertir{
+    border-radius: 10%;
+    width: 15%;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  #divReinvertir{
+    margin-top:0px;
+  }
+ 
+  
+  
+

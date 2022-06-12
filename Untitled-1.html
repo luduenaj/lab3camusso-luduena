@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Simulador Plazo Fijo</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <meta content="utf-8" http-equiv="encoding"> 
+    <script src="https://unpkg.com/vue@3.2.27/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        
+        <formulario @monto-final="pasarMontoFinal"></formulario>
+        <div v-if="reinvertir" id="divReinvertir">
+            <reinvertir :montofinal="montofinal" :porcentaje="porcentaje" :montoinicial="montoinicial" :dias="dias"></reinvertir>
+        </div>
+
+    </div>
+
+    <script src="plazof.js" ></script>
+    <script src="./componentes/formcomp.js"></script>
+    <script src="./componentes/reinvcomp.js"></script>
+    
+    <script>
+        const mountedApp = app.mount('#app')
+    </script>
+
+    
+   
+    
+    
+   
+    
+</body>
+</html>
